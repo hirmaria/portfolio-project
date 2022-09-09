@@ -2,8 +2,9 @@
 */
 :root {
   --primary-color: #4d724d;
-  --secondary-color: #8db48e;
+  --secondary-color: #b3cfb4;
   --third-color: #f5f5f5;
+  --addition-color: #2c442c;
 }
 @media (max-width: 768px) {
   .heading h1,
@@ -15,12 +16,22 @@
   header .col-9 {
     padding-left: 100px !important;
   }
-  header p {
-    font-size: 18px !important;
+  p {
+    font-size: 16px !important;
   }
   header .btn {
-    margin-bottom: 20px !important;
     font-size: 16px !important;
+  }
+  h3 {
+    text-align: center;
+  }
+  .app-desc {
+    text-align: center;
+  }
+}
+@media (max-width: 980px) {
+  h3 {
+    font-size: 24px !important;
   }
 }
 body,
@@ -32,12 +43,13 @@ body,
   color: var(--primary-color);
 }
 header {
-  margin: 100px 0;
+  margin-top: 100px;
+  margin-bottom: 250px;
 }
 
 .heading h1,
 .heading h2 {
-  font-size: 60px;
+  font-size: 80px;
   font-weight: bold;
   color: var(--primary-color);
 
@@ -47,16 +59,28 @@ header {
 header .col-9 {
   color: var(--primary-color);
   background: var(--secondary-color);
-  padding-left: 210px;
-  font-size: 38px;
-  opacity: 0.7;
+  padding-left: 200px;
+  font-size: 36px;
 }
 header .btn {
   color: var(--primary-color);
-  padding-top: 50px;
 
-  font-size: 38px;
+  padding-left: 0;
 }
 a:hover {
-  color: #c21010 !important;
+  color: #e95454 !important;
+}
+
+h3 {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.btn-primary-outline {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  padding: 10px 20px;
+}
+.btn-primary-outline:hover {
+  background-color: var(--secondary-color) !important;
 }
