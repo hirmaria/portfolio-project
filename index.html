@@ -30,17 +30,50 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header class="mt-5">
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--header-->
+    <header>
       <div class="row">
         <div class="heading col-2">
           <h2>Hi!</h2>
-          <h1>I am</h1>
+          <h1 class="text-nowrap">I am</h1>
           <h1>Maria</h1>
           <h1>Hirman</h1>
         </div>
-        <div class="col-10 opacity-50 text-center">
-          <p class="fs-3 mt-4">Front-end developer based in Europe</p>
-          <a href="mailto:girman.mv@gmail.com">Contact me</a>
+        <div class="col-10 opacity-50">
+          <p class="mt-4">Front-end developer based in Europe</p>
+          <a href="mailto:girman.mv@gmail.com" class="btn fs-3">Contact me</a>
         </div>
       </div>
     </header>
