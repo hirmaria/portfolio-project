@@ -49,8 +49,8 @@ body,
   color: var(--primary-color);
 }
 header {
-  margin-top: 100px;
-  margin-bottom: 250px;
+  margin-top: 150px;
+  margin-bottom: 300px;
 }
 
 .heading h1,
