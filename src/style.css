@@ -60,7 +60,7 @@ header {
   color: var(--primary-color);
 
   position: relative;
-  left: 50px;
+  left: 100px;
 }
 header .col-9 {
   color: var(--primary-color);
