@@ -19,6 +19,10 @@
   .home-right {
     padding-left: 100px !important;
   }
+  .home-right p {
+    font-size: 20px !important;
+    margin-top: 20px !important;
+  }
 
   .about-right {
     width: 100%;
@@ -32,9 +36,7 @@
     font-size: 16px !important;
     margin-top: 0 !important;
   }
-  .home-right p {
-    margin-top: 20px !important;
-  }
+
   h3,
   .app-desc {
     text-align: center;
@@ -53,8 +55,7 @@
     top: 0 !important;
   }
 }
-body,
-.navbar {
+body {
   background-color: var(--third-color);
   font-family: "Montserrat", sans-serif;
 }
@@ -68,7 +69,7 @@ header {
 
 .heading h1,
 .heading h2 {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: bold;
   color: var(--primary-color);
   position: relative;
