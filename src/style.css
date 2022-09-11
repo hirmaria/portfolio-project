@@ -23,13 +23,17 @@
   .about-right {
     width: 100%;
     text-align: center;
-    padding: 100px auto;
+    padding: 100px 50px;
   }
   p {
     font-size: 16px !important;
   }
   header .btn {
     font-size: 16px !important;
+    margin-top: 0 !important;
+  }
+  .home-right p {
+    margin-top: 20px !important;
   }
   h3,
   .app-desc {
