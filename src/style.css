@@ -16,8 +16,14 @@
   .col-6 {
     width: 100%;
   }
-  header .col-9 {
+  .home-right {
     padding-left: 100px !important;
+  }
+
+  .about-right {
+    width: 100%;
+    text-align: center;
+    padding: 100px auto;
   }
   p {
     font-size: 16px !important;
@@ -39,6 +45,9 @@
   h3 {
     font-size: 30px !important;
   }
+  header .btn {
+    top: 0 !important;
+  }
 }
 body,
 .navbar {
@@ -49,7 +58,7 @@ body,
   color: var(--primary-color);
 }
 header {
-  margin-top: 150px;
+  margin-top: 100px;
   margin-bottom: 150px;
 }
 
@@ -58,25 +67,28 @@ header {
   font-size: 80px;
   font-weight: bold;
   color: var(--primary-color);
-
   position: relative;
   left: 100px;
 }
 header .col-9 {
   color: var(--primary-color);
   background: var(--secondary-color);
+}
+.home-right {
   padding-left: 200px;
-  font-size: 36px;
+}
+.col-9 h1 {
+  font-size: 56px;
 }
 header .btn {
   color: var(--primary-color);
-
+  position: relative;
+  top: 100px;
   padding-left: 0;
 }
 a:hover {
   color: #e95454 !important;
 }
-
 h3 {
   font-size: 46px;
   font-weight: 700;
