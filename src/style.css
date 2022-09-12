@@ -1,15 +1,18 @@
 /*font-family: 'Montserrat', sans-serif;
 */
 :root {
-  --primary-color: #3a3845;
-  --secondary-color: #c69b7b;
-  --third-color: #f7ccac;
-  --addition-color: #826f66;
+  --primary-color: #50777c;
+  --secondary-color: #d8ac9c;
+  --third-color: #f6e6eEAC8AF4;
+  --addition-color: #d82148;
 }
 @media (max-width: 768px) {
+  h1,
+  h2 {
+    font-size: 36px !important;
+  }
   .heading h1,
   .heading h2 {
-    font-size: 36px !important;
     position: absolute;
     left: 20px !important;
   }
