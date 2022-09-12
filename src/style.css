@@ -1,10 +1,10 @@
 /*font-family: 'Montserrat', sans-serif;
 */
 :root {
-  --primary-color: #4d724d;
-  --secondary-color: #b3cfb4;
-  --third-color: #f5f5f5;
-  --addition-color: #2c442c;
+  --primary-color: #3a3845;
+  --secondary-color: #c69b7b;
+  --third-color: #f7ccac;
+  --addition-color: #826f66;
 }
 @media (max-width: 768px) {
   .heading h1,
@@ -55,23 +55,26 @@
     top: 0 !important;
   }
 }
-body {
-  background-color: var(--third-color);
-  font-family: "Montserrat", sans-serif;
-}
-.nav-link {
+
+nav {
   color: var(--primary-color);
+  background-color: var(--third-color);
 }
 header {
-  margin-top: 100px;
-  margin-bottom: 150px;
+  background-color: var(--third-color);
+  font-family: "Montserrat", sans-serif;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  margin-bottom: 50px;
 }
-
-.heading h1,
-.heading h2 {
+h1,
+h2 {
   font-size: 70px;
   font-weight: bold;
   color: var(--primary-color);
+}
+.heading h1,
+.heading h2 {
   position: relative;
   left: 100px;
 }
@@ -91,8 +94,9 @@ header .btn {
   top: 100px;
   padding-left: 0;
 }
-a:hover {
-  color: #e95454 !important;
+a:hover,
+.contact-button:hover {
+  color: var(--addition-color) !important;
 }
 h3 {
   font-size: 46px;
@@ -101,10 +105,23 @@ h3 {
 }
 .btn-primary-outline {
   color: var(--primary-color);
-  background-color: var(--third-color);
   border: 1px solid var(--primary-color);
   padding: 10px 20px;
 }
 .btn-primary-outline:hover {
   border: 1px solid var(--primary-color) !important;
+}
+.contact-me {
+  display: block;
+  margin: 100px auto;
+  width: 200px;
+}
+.contact-button {
+  color: var(--primary-color);
+}
+footer {
+  margin-bottom: 50px;
+}
+#my-projects {
+  padding: 50px;
 }
