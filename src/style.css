@@ -1,10 +1,10 @@
 /*font-family: 'Montserrat', sans-serif;
 */
 :root {
-  --primary-color: #50777c;
-  --secondary-color: #d8ac9c;
-  --third-color: #f6e6eEAC8AF4;
-  --addition-color: #d82148;
+  --primary-color: #82886a;
+  --secondary-color: #dae2b6;
+  --third-color: #f7eddb;
+  --addition-color: #eb1d36;
 }
 @media (max-width: 768px) {
   h1,
