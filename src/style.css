@@ -40,18 +40,15 @@
   header .btn {
     margin-top: 40px !important;
   }
-  my-tools img {
+  .my-tools img {
     display: block;
     margin: 0 auto;
-    max-width: 20px !important;
-    max-height: 20px !important;
+    max-width: 40px !important;
+    max-height: 40px !important;
   }
   .tools-desc {
     font-size: 14px;
     margin: 20px auto;
-  }
-  .my-tools {
-    font-size: 18px;
   }
 }
 
@@ -71,7 +68,10 @@
   .home-right .btn {
     padding-left: 100px !important;
   }
-  h3,
+  h3 {
+    font-size: 36px !important;
+  }
+
   h4 {
     font-size: 30px !important;
   }
