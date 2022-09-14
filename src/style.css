@@ -1,7 +1,7 @@
 /*font-family: 'Montserrat', sans-serif;
 */
 :root {
-  --primary-color: #472a3a;
+  --primary-color: #54bab9;
   --secondary-color: #f7ecde;
   --third-color: #fbf8f1;
   --addition-color: #eb1d36;
@@ -123,16 +123,17 @@ p {
   font-size: 20px;
 }
 header .col-9 {
-  color: var(--primary-color);
   background: var(--secondary-color);
 }
+
 .home-right p {
+  color: var(--primary-color);
   font-size: 34px;
   padding-left: 200px;
   margin-top: 50px;
 }
 .home-page .btn {
-  padding-left: 200px;
+  margin-left: 190px;
 
   margin-top: 100px;
 }
@@ -164,8 +165,7 @@ footer {
   width: 40%;
   margin: 50px auto;
 }
-#my-tools,
-#my-projects {
+.page-top {
   padding: 50px;
 }
 .my-tools img {
