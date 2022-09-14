@@ -139,6 +139,10 @@ footer {
   width: 40%;
   margin: 50px auto;
 }
-#my-skills {
+#my-tools,
+#my-projects {
   padding: 50px;
+}
+#my-tools img {
+  width: 20px;
 }
