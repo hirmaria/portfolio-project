@@ -80,15 +80,15 @@
     margin-top: 20px;
   }
 }
-
+body {
+  font-family: "Montserrat", sans-serif;
+}
 nav {
   color: var(--primary-color);
   background-color: var(--third-color);
 }
 header {
   background-color: var(--third-color);
-  font-family: "Montserrat", sans-serif;
-
   padding-bottom: 100px;
   margin-bottom: 50px;
 }
