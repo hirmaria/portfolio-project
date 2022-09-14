@@ -1,7 +1,7 @@
 /*font-family: 'Montserrat', sans-serif;
 */
 :root {
-  --primary-color: #205f5e;
+  --primary-color: #472a3a;
   --secondary-color: #f7ecde;
   --third-color: #fbf8f1;
   --addition-color: #eb1d36;
@@ -124,6 +124,7 @@ header .col-9 {
   background: var(--secondary-color);
 }
 .home-right p {
+  font-size: 34px;
   padding-left: 200px;
   margin-top: 50px;
 }
@@ -169,4 +170,7 @@ footer {
   margin: 0 auto;
   max-width: 80px;
   max-height: 80px;
+}
+.about-right {
+  padding-left: 50px;
 }
