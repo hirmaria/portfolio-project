@@ -143,6 +143,9 @@ footer {
 #my-projects {
   padding: 50px;
 }
-#my-tools img {
-  width: 20px;
+.my-tools img {
+  display: block;
+  margin: 0 auto;
+  max-width: 80px;
+  max-height: 80px;
 }
