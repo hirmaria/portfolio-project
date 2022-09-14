@@ -44,10 +44,11 @@
     display: block;
     margin: 0 auto;
     max-width: 20px !important;
+    max-height: 20px !important;
   }
   .tools-desc {
-    font-size: 10px;
-    text-align: center;
+    font-size: 14px;
+    margin: 20px auto;
   }
   .my-tools {
     font-size: 18px;
