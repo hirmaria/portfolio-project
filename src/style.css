@@ -21,6 +21,8 @@
   .about-left {
     width: 100%;
     text-align: justify;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
   .home-right p {
     margin-top: 20px !important;
