@@ -17,10 +17,10 @@
     width: 100%;
   }
 
-  .about-right {
+  .about-right,
+  .about-left {
     width: 100%;
-    text-align: center;
-    padding: 100px 50px;
+    text-align: justify;
   }
   .home-right p {
     margin-top: 20px !important;
