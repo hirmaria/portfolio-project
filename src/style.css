@@ -141,10 +141,7 @@ header .col-9 {
   font-size: 24px;
   color: var(--primary-color);
 }
-a:hover,
-.contact-button:hover {
-  color: var(--addition-color) !important;
-}
+
 .btn-primary-outline {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
@@ -152,19 +149,28 @@ a:hover,
 }
 .btn-primary-outline:hover {
   border: 1px solid var(--primary-color) !important;
+  color: var(--addition-color) !important;
 }
 .contact-me {
   width: 200px;
   display: block;
   margin: 0 auto;
 }
-.contact-button {
+
+footer .contact-links a {
   color: var(--primary-color);
+  background-color: var(--third-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+  margin: 0 20px;
 }
-footer {
-  width: 40%;
-  margin: 50px auto;
+
+footer .contact-links a:hover {
+  color: white;
+  background-color: var(--primary-color);
 }
+
 .page-top {
   padding: 50px;
 }
