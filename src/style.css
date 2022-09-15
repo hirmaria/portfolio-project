@@ -154,9 +154,9 @@ a:hover,
   border: 1px solid var(--primary-color) !important;
 }
 .contact-me {
-  display: block;
-  margin: 100px auto;
   width: 200px;
+  display: block;
+  margin: 0 auto;
 }
 .contact-button {
   color: var(--primary-color);
@@ -176,4 +176,9 @@ footer {
 }
 .about-right {
   padding-left: 50px;
+}
+h5 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
 }
