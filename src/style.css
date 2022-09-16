@@ -80,7 +80,6 @@
   h5 {
     font-size: 24px !important;
   }
-  .my-project .btn-primary-outline;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -150,6 +149,8 @@ header .col-9 {
 }
 .btn-primary-outline:hover {
   border: 1px solid var(--primary-color) !important;
+}
+a:hover {
   color: var(--addition-color) !important;
 }
 .contact-me {
@@ -168,7 +169,7 @@ footer .contact-links a {
 }
 
 footer .contact-links a:hover {
-  color: white;
+  color: white !important;
   background-color: var(--primary-color);
 }
 
