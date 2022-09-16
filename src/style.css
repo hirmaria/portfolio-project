@@ -172,7 +172,7 @@ footer .contact-links a:hover {
 }
 
 .page-top {
-  padding: 50px;
+  padding-top: 50px;
 }
 .my-tools img {
   display: block;
@@ -187,4 +187,9 @@ h5 {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
+}
+.my-projects a {
+  display: block;
+  margin: 20px auto;
+  width: 70%;
 }
