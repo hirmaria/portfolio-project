@@ -13,9 +13,6 @@
     position: absolute;
     left: 20px !important;
   }
-  .col-6 {
-    width: 100%;
-  }
 
   .home-right p {
     margin-top: 20px !important;
@@ -78,6 +75,12 @@
     padding-left: 20px !important;
     padding-right: 20px !important;
     margin-top: 20px;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  h5 {
+    font-size: 24px !important;
   }
 }
 body {
@@ -191,4 +194,9 @@ h5 {
   display: block;
   margin: 20px auto;
   width: 60%;
+}
+.my-projects {
+  display: block;
+  margin: 50px auto;
+  max-width: 80%;
 }
