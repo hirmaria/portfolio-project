@@ -105,12 +105,12 @@ h2 {
   color: var(--primary-color);
 }
 h3 {
-  font-size: 56px;
+  font-size: 46px;
   font-weight: 700;
   color: var(--primary-color);
 }
 h4 {
-  font-size: 46px;
+  font-size: 36px;
   font-weight: 700;
   color: var(--primary-color);
 }
@@ -120,7 +120,7 @@ h4 {
   left: 100px;
 }
 p {
-  font-size: 20px;
+  font-size: 18px;
 }
 header .col-9 {
   background: var(--secondary-color);
@@ -134,11 +134,10 @@ header .col-9 {
 }
 .home-page .btn {
   margin-left: 190px;
-
   margin-top: 100px;
 }
 .btn {
-  font-size: 24px;
+  font-size: 20px;
   color: var(--primary-color);
 }
 
@@ -191,5 +190,5 @@ h5 {
 .my-projects a {
   display: block;
   margin: 20px auto;
-  width: 70%;
+  width: 60%;
 }
