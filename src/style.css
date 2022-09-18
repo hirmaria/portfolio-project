@@ -37,12 +37,27 @@
   h2 {
     font-size: 36px !important;
   }
+  h3 {
+    font-size: 36px !important;
+    text-align: center;
+  }
+  h4 {
+    font-size: 30px !important;
+    text-align: center;
+  }
+  h5 {
+    font-size: 22px !important;
+  }
   p {
     font-size: 18px !important;
   }
   header .btn {
     margin-top: 30px !important;
     font-size: 18px !important;
+  }
+  .home-page {
+    padding-top: 100px !important;
+    padding-bottom: 80px !important;
   }
   .home-right .btn {
     margin-left: 0 !important;
@@ -51,14 +66,6 @@
   .home-right p,
   .home-right .btn {
     padding-left: 100px !important;
-  }
-  h3 {
-    font-size: 36px !important;
-    text-align: center;
-  }
-  h4 {
-    font-size: 30px !important;
-    text-align: center;
   }
   .app-desc {
     text-align: justify;
@@ -71,7 +78,6 @@
   .my-projects a {
     width: 250px !important;
   }
-
   .about-right,
   .about-left {
     width: 100%;
@@ -84,9 +90,6 @@
   }
   .col-6 {
     width: 100%;
-  }
-  h5 {
-    font-size: 24px !important;
   }
   .about-page {
     padding-bottom: 50px;
