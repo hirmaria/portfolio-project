@@ -62,7 +62,7 @@
   .btn-primary-outline {
     display: block;
     margin: 40px auto !important;
-    width: 200px;
+    width: 250px !important;
     font-size: 16px !important;
   }
 
