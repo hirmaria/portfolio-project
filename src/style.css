@@ -76,14 +76,21 @@
   .about-left {
     width: 100%;
     text-align: justify;
-
     margin-top: 20px;
+  }
+  .about-right {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
   .col-6 {
     width: 100%;
   }
   h5 {
     font-size: 24px !important;
+  }
+  .about-page {
+    padding-bottom: 50px;
+    margin-bottom: 0;
   }
 }
 body {
@@ -204,7 +211,4 @@ h5 {
   display: block;
   margin: 50px auto;
   max-width: 80%;
-}
-img {
-  border-radius: 15px;
 }
