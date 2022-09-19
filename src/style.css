@@ -100,6 +100,9 @@
     padding-bottom: 50px;
     margin-bottom: 0;
   }
+  .make-space {
+    padding-top: 10px;
+  }
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -222,4 +225,7 @@ h5 {
   display: block;
   margin: 50px auto;
   max-width: 80%;
+}
+.make-space {
+  padding-top: 50px;
 }
