@@ -46,7 +46,7 @@
     text-align: center;
   }
   h5 {
-    font-size: 22px !important;
+    font-size: 20px !important;
   }
   h6 {
     font-size: 10px;
@@ -138,6 +138,11 @@ h4 {
   font-weight: 700;
   color: var(--primary-color);
 }
+h5 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
 h6 {
   font-size: 14px;
 }
@@ -211,11 +216,7 @@ footer .contact-links a:hover {
 .about-right {
   padding-left: 50px;
 }
-h5 {
-  font-size: 40px;
-  font-weight: 700;
-  text-align: center;
-}
+
 .my-projects a {
   display: block;
   margin: 20px auto;
