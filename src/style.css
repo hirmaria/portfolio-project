@@ -113,14 +113,18 @@ nav {
 }
 header {
   background-color: var(--third-color);
-  padding-bottom: 100px;
+
   margin-bottom: 50px;
 }
 .home-page {
+  padding-bottom: 100px;
   padding-top: 170px;
 }
 .about-page {
   padding-top: 100px;
+}
+.contacts {
+  padding-bottom: 50px;
 }
 h1,
 h2 {
