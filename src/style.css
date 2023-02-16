@@ -113,7 +113,6 @@ nav {
 }
 header {
   background-color: var(--third-color);
-
   margin-bottom: 50px;
 }
 .home-page {
@@ -138,7 +137,7 @@ h3 {
   color: rgb(73, 69, 69);
 }
 h4 {
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 700;
   color: var(--primary-color);
 }
@@ -180,7 +179,6 @@ header .col-9 {
 .btn-primary-outline {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
-  padding: 10px 20px !important;
 }
 .btn-primary-outline:hover {
   border: 1px solid var(--primary-color) !important;
